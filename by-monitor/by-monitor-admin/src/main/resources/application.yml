@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: by-Monitor-Admin
+    name: by-monitor-admin
   boot:
     admin:
       ui:

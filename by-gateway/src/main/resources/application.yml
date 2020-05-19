@@ -4,7 +4,7 @@ spring:
   application:
     name: by-cloud-gateway
   autoconfigure: #close DataSourceAutoConfiguration
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
   boot:
     admin:
       client:
